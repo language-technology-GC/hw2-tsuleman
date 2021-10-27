@@ -22,7 +22,7 @@ def main(args: argparse.Namespace) -> None:
                             spaced = spaced + w + " "
 
                     print(spaced,file=sinkg)
-                    print(ipa,file=sinkp)
+                    print(ipa,end='',file=sinkp)
 
 
 
